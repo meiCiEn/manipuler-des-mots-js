@@ -1,0 +1,99 @@
+.hidden {
+    display: none;
+}
+
+:root {
+    --bg: #fafafa;
+    --forms: #c4c1e0;
+    --buttons: #7c73e6;
+    --alt-bg: #EA9010;
+    --text: #191308;
+}
+
+
+body {
+    color: var(--text);
+    background: var(--bg);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+h1,
+h2, h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 10px 0 20px 0;
+}
+
+div,
+main, section {
+    display: flex;
+}
+
+main {
+    width: 100%;
+    margin: 5vw;
+    flex-direction: column;
+}
+
+section {
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+label {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type=text] {
+    background: #ffffff;
+    border: solid var(--text) 2px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+.form {
+    width: 1000px;
+    padding: 35px;
+    background: var(--forms);
+    border-radius: 10px;
+}
+
+
+input[type=button], .response {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+input[type=button] {
+    background: var(--buttons);
+    min-height: 50px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.response-box {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.response {
+background: var(--alt-bg);
+margin-top: 20px;
+}
+
+#text-boxes {
+    justify-content: space-between;
+}

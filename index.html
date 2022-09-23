@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+    <title>Title</title>
+</head>
+
+<body>
+    <main>
+        <!-- <h1>Trois façons d'inverser une chaîne de caractères dans JavaScript</h1> -->
+        <h1>Manipuler des tableaux et des chaînes de caractères</h1>
+
+        <h2>Inverser un mot</h2>
+        <section class="form" id="form-1">
+            <label for="input-word">Saisissez un mot :</label>
+            <input type="text" class="input-box" name="input-word" id="input-word">
+            <div class="response-box"><input type="button" id="btn-reverse" value="Inverser le mot">
+                <input type="button" class="cancel" id="cancel-1" value="Effacer">
+            </div>
+                <div class="response-div">
+                    <p class="response hidden" id="reverse-word"></p>
+                </div>
+
+        </section>
+
+        <h2>Afficher le premier mot qui contient la lettre "a"</h2>
+        <section class="form" id="form-2">
+            <label for="input-word1">Saisissez trois mots :</label>
+            <div id="text-boxes"><input type="text" class="input-box" name="input-word-1" id="input-word-1">
+                <input type="text" class="input-box" name="input-word-2" id="input-word-2">
+                <input type="text" class="input-box" name="input-word-3" id="input-word-3">
+            </div>
+            <div class="response-box"><input type="button" id="btn-word"
+                    value="Renvoyer le premier mot contenant un 'a'"><input type="button" class="cancel" id="cancel-2"
+                    value="Effacer">
+            </div>
+            <div class="response-div"></div>
+                <p id="a-word" class="response hidden">Une valeur</p>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
